@@ -1,5 +1,4 @@
-div {
-  border: black solid 2px;
-  padding: 2px;
-  margin: 2px;
+#brainpic {
+  opacity: 0.5;
+  width: 100%;
 }
