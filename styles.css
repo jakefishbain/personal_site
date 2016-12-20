@@ -21,6 +21,8 @@ a
     position: fixed;
     margin-top: -200px;
     width: 100%;
+    min-height: 750px;
+    opacity: .5;
 }
 
 .card
@@ -289,8 +291,6 @@ button.contact:focus
 
  
 @media screen and (min-width: 768px) {
-    
     #myModal .modal-dialog  {width:1000px;}
-
 }
 */*/
