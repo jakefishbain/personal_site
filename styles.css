@@ -9,6 +9,7 @@ body {
     margin: 0;
     background-color: white;
     
+    
 }
 
 a
@@ -16,6 +17,11 @@ a
     text-decoration: none;
 }
 
+#body_back {
+    position: fixed;
+    margin-top: -200px;
+    width: 100%;
+}
 
 .card
 {
@@ -50,7 +56,7 @@ a
     margin-top: -154px;
     width:100%;
     height:150px;
-    background-image: url("https://snap-photos.s3.amazonaws.com/img-thumbs/960w/RQ2Z75PQIN.jpg");
+    background-image: url("laptop.jpg");
     background-size: cover;
     border-bottom: solid 1px lightgrey;
 
@@ -75,7 +81,7 @@ a
     width: 150px;
     background-color: white;
     margin: 0 auto;
-    background-image: url("https://filmshotfreezer.files.wordpress.com/2011/07/untitled-1.jpg");
+    background-image: url("jakefish.jpg");
     background-size: cover;
     background-position: 50% 50%;
     top:75px;
@@ -231,7 +237,7 @@ button.contact:focus
     font-family: inherit;
     border: 1px solid #dadee5;
     /*    border: 1px solid black;*/
-    margin-top: 35px;
+    margin-top: 15px;
     height: 30px;
     display: block;
     -webkit-transition: all 0.2s ease-in-out;
@@ -271,5 +277,5 @@ button.contact:focus
 
 .email-form button
 {
-    margin-top: 60px;
+    margin-top: 40px;
 }
