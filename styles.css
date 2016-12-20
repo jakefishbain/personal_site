@@ -1,19 +1,23 @@
-html 
-{
+html {
     overflow-x: hidden;
 }
 
 body {
-
-    font-family: 'Lato', sans-serif;
+    font-family: 'Indie Flower', cursive;
     margin: 0;
-    background-color: white;
-    
-    
+    background-color: white;  
 }
 
-a
-{
+.name-head {
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.title-head {
+    font-size: 15px;
+}
+
+a {
     text-decoration: none !important;
 }
 
@@ -25,8 +29,7 @@ a
     opacity: .5;
 }
 
-.card
-{
+.card {
     z-index: 1;
     border-radius: 25px;
     position: relative;
@@ -45,15 +48,14 @@ a
 
         -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.2);
-  
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.2);  
 }
-.card.active
-{
+
+.card.active {
     height:490px;
 }
-.banner
-{
+
+.banner {
     z-index: 2;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
@@ -71,14 +73,11 @@ a
     -ms-transition:     all 0.7s ease-in-out;
 }
 
-.banner.active
-{
+.banner.active {
     height: 0;
-
 }
 
-.photo
-{
+.photo {
     z-index: 3;
     position: relative;
     border-radius: 50%;
@@ -99,12 +98,11 @@ a
     -ms-transition:     top 0.7s ease-in-out, background 0.15s ease;
 }
 
-.photo.active
-{
+.photo.active {
     top:-80px;
 }
-.card ul
-{
+
+.card ul {
     list-style: none;
     text-align: center;
     padding-left: 0;
@@ -117,14 +115,12 @@ a
     -ms-transition:     all 0.7s ease-in-out;
 }
 
-.card ul.active
-{
+.card ul.active {
     opacity:0;
     visibility: hidden;
 }
 
-.card i
-{
+.card i {
     font-size: 25px;
     display: inline-block;
     margin-top:10px;
@@ -135,8 +131,7 @@ a
     color: #C7D0E1;
 }
 
-button.contact
-{
+button.contact {
     margin: 0 auto;
     text-align: center;
     margin-top: -15px;
@@ -157,19 +152,16 @@ button.contact
     -ms-transition:     all 0.3s ease-in-out;
 }
 
-button.contact:hover
-{
+button.contact:hover {
     cursor: pointer;
     background-color:#979da8;
 }
 
-button.contact:focus
-{
+button.contact:focus {
     outline: 0;
 }
 
-.social-media-banner
-{
+.social-media-banner {
     width: 300px;
     height: 50px;
     margin-top: 25px;
@@ -181,8 +173,7 @@ button.contact:focus
     -ms-transition:     all 1.5 ease-in-out;
 }
 
-.social-media-banner.active
-{
+.social-media-banner.active {
     opacity:0;
     visibility: hidden;
     -webkit-transition: all 0.1s ease-in-out;
@@ -191,8 +182,7 @@ button.contact:focus
     -ms-transition:     all 0.1s ease-in-out;
 }
 
-.social-media-banner a i
-{
+.social-media-banner a i {
     display: inline;
     
     width: auto;
@@ -204,20 +194,18 @@ button.contact:focus
     -ms-transition:     all 0.3s ease-in-out;
 }
 
-.social-media-banner a i:hover
-{
+.social-media-banner a i:hover {
     color:#979da8;
 }
 
-::-webkit-input-placeholder 
-{
+::-webkit-input-placeholder {
    font-size: 12px;
    text-transform: uppercase;
    text-align: center;
    /*    color: black;*/
 }
-.email-form textarea
-{
+
+.email-form textarea {
     width: 200px;
     text-transform: capitalize;
     background-color: white;
@@ -232,8 +220,7 @@ button.contact:focus
     -ms-transition:     all 0.3s ease-in-out;
 }
 
-.email-form button
-{
+.email-form button {
     margin-top: 40px;
 }
 
